@@ -1,0 +1,13 @@
+
+1-) 
+Dizileri tek elemanlı oluncaya kadar ikiye böl :
+1. Adım = [16,21,11] , [8,12,22]
+2. Adım = [16] , [21,11] , [8] , [12,22]
+3. Adım = 16 , 21 , 11 , 8 , 12 , 22
+4. Adım = Dizileri karşılaştırarak tekrardan 2’li gruplamalara başla.
+5. Adım = [16,21], [8,11], [12,22]
+6. Adım = [8,11,16,21], [12,22]
+7. Adım = [8,11,12,16,21,22]
+
+2-)
+Time Complexity = O(n*logn) 
