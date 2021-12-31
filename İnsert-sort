@@ -1,0 +1,31 @@
+
+ 
+
+1-)
+
+1.	Adım = 22 ile 2’nin yerini değiştir. Dizi: 2-27-16-22-18-6
+2.	Adım = 27 ile 6’nın yerini değiştir. Dizi: 2-6-16-22-18-27
+3.	Adım = 16 doğru yerde. Diziye dokunma. Dizi: 2-6-16-22-18-27
+4.	Adım = 22 ile 18’in yerini değiştir. Dizi: 2-6-16-18-22-27
+5.	Adım = 22 doğru yerde. Diziye dokunma. Dizi: 2-6-16-18-22-27
+6.	Adım = 27 doğru yerde. Diziye dokunma. Dizi: 2-6-16-18-22-27
+
+2-)
+ O(n^2)
+
+3-)
+Worst Case = Big O Notation = n^2
+Best Case = O(n) = Dizi sıralıdır.
+Average Case = n^2
+
+4-) Sıralı Dizi: 2-6-16-18-22-27
+18 ortada olduğu için Average Case’e girecektir.
+ 
+
+
+5-) Başlangıç : 7-3-5-8-2-9-4-15-6
+1-	2-3-5-8-7-9-4-16-6
+2-	2-3-5-8-7-9-4-16-6
+3-	2-3-4-8-7-9-5-16-6
+4-	2-3-4-5-7-9-8-16-6
+
